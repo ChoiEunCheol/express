@@ -22,5 +22,5 @@ app.post('/submit', (req, res) => {
 
 // 서버를 8000번 포트에서 시작
 app.listen(port, () => {
-  console.log(`서버가 ${port} 포트에서 실행 중입니다.`);
+  console.log(`http://localhost:${port}`);
 });
